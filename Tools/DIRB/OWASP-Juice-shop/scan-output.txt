@@ -1,0 +1,21 @@
+DIRB v2.22
+By The Dark Raver
+-----------------
+START_TIME: Sun Jun 21 12:35:53 2026
+URL_BASE: http://localhost:3000/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+-----------------
+GENERATED WORDS: 4612
+---- Scanning URL: http://localhost:3000/ ----
++ http://localhost:3000/assets (CODE:301|SIZE:156)
++ http://localhost:3000/ftp (CODE:200|SIZE:11297)
++ http://localhost:3000/media (CODE:301|SIZE:155)
++ http://localhost:3000/profile (CODE:500|SIZE:1043)
++ http://localhost:3000/promotion (CODE:200|SIZE:5863)
++ http://localhost:3000/redirect (CODE:500|SIZE:3113)
++ http://localhost:3000/robots.txt (CODE:200|SIZE:28)
++ http://localhost:3000/video (CODE:200|SIZE:10075518)
++ http://localhost:3000/Video (CODE:200|SIZE:10075518)
+-----------------
+END_TIME: Sun Jun 21 12:37:28 2026
+DOWNLOADED: 4612 - FOUND: 9
