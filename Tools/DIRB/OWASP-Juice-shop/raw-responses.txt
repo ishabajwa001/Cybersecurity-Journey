@@ -1,0 +1,53 @@
+Raw response bodies from manually visiting each path found by dirb.
+Kept separate from notes.md so the notes stay readable — this file is the backup evidence.
+
+================================================================
+GET /robots.txt
+================================================================
+User-agent: *
+Disallow: /ftp
+
+================================================================
+GET /ftp  (directory listing)
+================================================================
+quarantine6/5/2026
+acquisitions.md
+announcement_encrypted.md
+coupons_2013.md.bak
+eastere.gg
+encrypt.pyc
+incident-support.kdbx
+legal.md
+package-lock.json.bak
+package.json.bak
+suspicious_errors.yml
+
+================================================================
+GET /profile
+================================================================
+OWASP Juice Shop (Express ^4.22.1)
+500 Error: Blocked illegal activity by ::ffff:172.17.0.1
+   at /juice-shop/build/routes/userProfile.js:59:18
+
+================================================================
+GET /redirect
+================================================================
+OWASP Juice Shop (Express ^4.22.1)
+500 TypeError: Cannot read properties of undefined (reading 'includes')
+   at Object.isRedirectAllowed (/juice-shop/build/lib/insecurity.js:148:34)
+   at /juice-shop/build/routes/redirect.js:38:22
+   at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+   at next (/juice-shop/node_modules/express/lib/router/route.js:149:13)
+   at Route.dispatch (/juice-shop/node_modules/express/lib/router/route.js:119:3)
+   at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+   at /juice-shop/node_modules/express/lib/router/index.js:284:15
+   at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+   at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+   at /juice-shop/build/routes/verify.js:210:5
+
+================================================================
+GET /redirect?to=https://google.com
+================================================================
+OWASP Juice Shop (Express ^4.22.1)
+406 Error: Unrecognized target URL for redirect: https://google.com
+   at /juice-shop/build/routes/redirect.js:45:18
