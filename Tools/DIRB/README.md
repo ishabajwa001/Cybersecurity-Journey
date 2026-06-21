@@ -44,4 +44,4 @@ dirb http://target -X .bak,.old,.txt
 ## Scans I've run
 | Target | Date | Notes |
 |---|---|---|
-| [OWASP Juice Shop](OWASP-Juice-shop/notes.md) | 2026-06-21 | First scan, found `/ftp` directory with backup files |
+| [OWASP Juice Shop](OWASP-Juice-shop/README.md) | 2026-06-21 | First scan, found `/ftp` directory with backup files |
