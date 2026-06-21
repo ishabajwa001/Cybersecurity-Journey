@@ -1,10 +1,9 @@
 # OWASP Juice Shop — DIRB Scan & Recon Notes
 
-**Date:** 2026-06-21
-**Target:** http://localhost:3000/ (Docker, local)
-**Wordlist:** common.txt (4612 words) · 9 paths found
-
-**Raw data:** [scan-output.txt](scan-output.txt) · [response bodies](raw-responses.txt)
+- **Date:** 2026-06-21
+- **Target:** http://localhost:3000/ (Docker, local)
+- **Wordlist:** common.txt (4612 words) · 9 paths found
+- **Raw data:** [scan-output.txt](scan-output.txt) · [response bodies](raw-responses.txt)
 
 ---
 
@@ -60,8 +59,8 @@ suspicious_errors.yml
 ---
 
 ## Screenshots
-![ftp directory listing](screenshots/ftp.jpg)
-![robots.txt content](screenshots/robots.jpg)
+![ftp directory listing](Screenshots/ftp.jpg)
+![robots.txt content](Screenshots/robots.jpg)
 ![redirect attempt — wrong syntax](screenshots/redirect3.jpg)
 
 ---
