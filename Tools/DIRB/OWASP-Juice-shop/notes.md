@@ -61,7 +61,7 @@ suspicious_errors.yml
 ## Screenshots
 ![ftp directory listing](Screenshots/ftp.jpg)
 ![robots.txt content](Screenshots/robots.jpg)
-![redirect attempt — wrong syntax](screenshots/redirect3.jpg)
+![redirect attempt — wrong syntax](Screenshots/redirect3.jpg)
 
 ---
 
