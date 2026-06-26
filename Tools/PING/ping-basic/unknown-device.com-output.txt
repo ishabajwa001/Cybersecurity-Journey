@@ -1,0 +1,2 @@
+~$ ping unknown-device.com
+ping: unknown-device.com: Name or service not known
