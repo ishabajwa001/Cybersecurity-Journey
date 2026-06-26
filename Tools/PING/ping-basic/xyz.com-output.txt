@@ -1,0 +1,5 @@
+~$ ping xyz.com
+PING xyz.com (52.8.169.248) 56(84) bytes of data.
+r^C
+--- xyz.com ping statistics ---
+13 packets transmitted, 0 received, 100% packet loss, time 12296ms
