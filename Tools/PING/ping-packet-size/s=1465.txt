@@ -1,0 +1,5 @@
+ping -s 1465 -c 10 1.1.1.1
+PING 1.1.1.1 (1.1.1.1) 1465(1493) bytes of data.
+
+--- 1.1.1.1 ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9193ms
