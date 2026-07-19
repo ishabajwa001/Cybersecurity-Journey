@@ -1,0 +1,2 @@
+~$ ping -s -1 -c 10 1.1.1.1
+ping: invalid argument: '-1': out of range: 0 <= value <= 2147483647
