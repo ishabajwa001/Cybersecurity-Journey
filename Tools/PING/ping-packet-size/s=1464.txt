@@ -1,0 +1,16 @@
+~$ ping -s 1464 -c 10 1.1.1.1
+PING 1.1.1.1 (1.1.1.1) 1464(1492) bytes of data.
+1472 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=6.74 ms
+1472 bytes from 1.1.1.1: icmp_seq=2 ttl=59 time=9.24 ms
+1472 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=15.5 ms
+1472 bytes from 1.1.1.1: icmp_seq=4 ttl=59 time=10.6 ms
+1472 bytes from 1.1.1.1: icmp_seq=5 ttl=59 time=8.37 ms
+1472 bytes from 1.1.1.1: icmp_seq=6 ttl=59 time=9.01 ms
+1472 bytes from 1.1.1.1: icmp_seq=7 ttl=59 time=10.9 ms
+1472 bytes from 1.1.1.1: icmp_seq=8 ttl=59 time=8.16 ms
+1472 bytes from 1.1.1.1: icmp_seq=9 ttl=59 time=6.80 ms
+1472 bytes from 1.1.1.1: icmp_seq=10 ttl=59 time=6.53 ms
+
+--- 1.1.1.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 6.527/9.179/15.472/2.548 ms
