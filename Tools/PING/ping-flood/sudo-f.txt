@@ -1,0 +1,6 @@
+~$ sudo ping -f 1.0.0.1
+PING 1.0.0.1 (1.0.0.1) 56(84) bytes of data.
+.................................................................^C
+--- 1.0.0.1 ping statistics ---
+3954 packets transmitted, 3889 received, 1.6439% packet loss, time 40207ms
+rtt min/avg/max/mdev = 5.466/10.646/59.967/5.076 ms, pipe 4, ipg/ewma 10.171/7.807 ms
