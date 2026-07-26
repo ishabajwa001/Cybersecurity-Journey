@@ -1,0 +1,3 @@
+~$ ping -f 1.0.0.1
+PING 1.0.0.1 (1.0.0.1) 56(84) bytes of data.
+ping: cannot flood, minimal interval for user must be >= 2 ms, use -i 0.002 (or higher)
