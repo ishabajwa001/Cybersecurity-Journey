@@ -3,14 +3,14 @@
 A learning-based network observation record studying the behavior of the `-D`, `-f`, `-i`, and `-t` flags in the `ping` command across different target types.
 
 ## Table of Contents
-- Overview
-- Methodology
-- Network Flow Understanding
-- Test Results and Analysis
-- Comparative Summary
-- Key Findings
-- Limitations
-- Conclusion
+- [Overview](#overview)
+- [Methodology](#methodology)
+- [Network Flow Understanding](#network-flow-understanding)
+- [Test Results and Analysis](#test-results-and-analysis)
+- [Comparative Summary](#comparative-summary)
+- [Key Findings](#key-findings)
+- [Limitations](#limitations)
+- [Conclusion](#conclusion)
 
 ## Overview
 This directory contains raw output logs generated from the `ping` command executed on different network targets using timestamp (`-D`), flood (`-f`), interval (`-i`), and TTL-limited (`-t`) modes. The purpose is to study intermediate network behavior, including:
