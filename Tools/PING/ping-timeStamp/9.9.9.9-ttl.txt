@@ -1,0 +1,17 @@
+~$ ping -D -t 5 9.9.9.9
+PING 9.9.9.9 (9.9.9.9) 56(84) bytes of data.
+[1785175479.218433] From 10.253.4.40 icmp_seq=1 Time to live exceeded
+[1785175480.222536] From 10.253.4.40 icmp_seq=2 Time to live exceeded
+[1785175481.228427] From 10.253.4.40 icmp_seq=3 Time to live exceeded
+[1785175482.223663] From 10.253.4.40 icmp_seq=4 Time to live exceeded
+[1785175483.225794] From 10.253.4.40 icmp_seq=5 Time to live exceeded
+[1785175484.231763] From 10.253.4.40 icmp_seq=6 Time to live exceeded
+[1785175485.233776] From 10.253.4.40 icmp_seq=7 Time to live exceeded
+[1785175486.231370] From 10.253.4.40 icmp_seq=8 Time to live exceeded
+[1785175487.232745] From 10.253.4.40 icmp_seq=9 Time to live exceeded
+[1785175488.242942] From 10.253.4.40 icmp_seq=10 Time to live exceeded
+[1785175489.235579] From 10.253.4.40 icmp_seq=11 Time to live exceeded
+[1785175490.237006] From 10.253.4.40 icmp_seq=12 Time to live exceeded
+^C
+--- 9.9.9.9 ping statistics ---
+12 packets transmitted, 0 received, +12 errors, 100% packet loss, time 11019ms
