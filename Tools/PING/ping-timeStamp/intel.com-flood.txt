@@ -1,0 +1,6 @@
+~$ sudo ping -f -D intel.com
+PING intel.com (13.91.95.74) 56(84) bytes of data.
+...............E.E.EE.EE.EEEEEEEEE.E.E.EE.EEEEEE.EE.EEEEE.EE.EEE.E.E.EEE.E.EE.EEEEEEE.E.EE.E.EE.EEE..EE.EEEEEEEE.EEEEEEE.EEEEEEE.EEEE.EE.EE.EEEEEEEE.E.EE.EE.EEE.E.EEEE..E.EE.EEE.EEEE.EE.EE.E.EEEEEE.EEE.EEE.EE.EEE..EEEEEEEE.EEEE.E.E.E.EEEE.EEEE.EE.E.EE.EEE.E.EEE.EE.EE.E.EE.E.EEEEE.E.EEEEEE.EEE^C
+--- intel.com ping statistics ---
+296 packets transmitted, 0 received, +280 errors, 100% packet loss, time 4706ms
+pipe 19
