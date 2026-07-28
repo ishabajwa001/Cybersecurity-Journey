@@ -1,0 +1,6 @@
+~$ ping -q -c 100 -D openai.com
+PING openai.com (104.18.33.45) 56(84) bytes of data.
+
+--- openai.com ping statistics ---
+100 packets transmitted, 100 received, 0% packet loss, time 99241ms
+rtt min/avg/max/mdev = 5.987/9.408/23.753/3.691 ms
