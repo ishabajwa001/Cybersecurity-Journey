@@ -1,0 +1,6 @@
+~$ ping -q -c 50 kernal.org
+PING kernal.org (145.223.105.210) 56(84) bytes of data.
+
+--- kernal.org ping statistics ---
+50 packets transmitted, 50 received, 0% packet loss, time 51254ms
+rtt min/avg/max/mdev = 253.469/258.014/278.669/5.051 ms
