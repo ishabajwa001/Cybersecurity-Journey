@@ -1,0 +1,6 @@
+~$ ping -q chatgpt.com
+PING chatgpt.com (172.64.155.209) 56(84) bytes of data.
+^C
+--- chatgpt.com ping statistics ---
+12 packets transmitted, 12 received, 0% packet loss, time 11080ms
+rtt min/avg/max/mdev = 6.080/7.325/12.646/1.787 ms
