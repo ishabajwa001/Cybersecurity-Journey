@@ -1,0 +1,28 @@
+~$ ping -v -c 20 gitlab.com
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+ping: ai->ai_family: AF_INET, ai->ai_canonname: 'gitlab.com'
+PING gitlab.com (172.65.251.78) 56(84) bytes of data.
+64 bytes from 172.65.251.78: icmp_seq=1 ttl=59 time=14.6 ms
+64 bytes from 172.65.251.78: icmp_seq=2 ttl=59 time=6.36 ms
+64 bytes from 172.65.251.78: icmp_seq=3 ttl=59 time=7.16 ms
+64 bytes from 172.65.251.78: icmp_seq=4 ttl=59 time=7.13 ms
+64 bytes from 172.65.251.78: icmp_seq=5 ttl=59 time=7.29 ms
+64 bytes from 172.65.251.78: icmp_seq=6 ttl=59 time=7.00 ms
+64 bytes from 172.65.251.78: icmp_seq=7 ttl=59 time=6.11 ms
+64 bytes from 172.65.251.78: icmp_seq=8 ttl=59 time=6.59 ms
+64 bytes from 172.65.251.78: icmp_seq=9 ttl=59 time=9.22 ms
+64 bytes from 172.65.251.78: icmp_seq=10 ttl=59 time=10.1 ms
+64 bytes from 172.65.251.78: icmp_seq=11 ttl=59 time=6.29 ms
+64 bytes from 172.65.251.78: icmp_seq=12 ttl=59 time=5.81 ms
+64 bytes from 172.65.251.78: icmp_seq=13 ttl=59 time=7.47 ms
+64 bytes from 172.65.251.78: icmp_seq=14 ttl=59 time=6.21 ms
+64 bytes from 172.65.251.78: icmp_seq=15 ttl=59 time=6.45 ms
+64 bytes from 172.65.251.78: icmp_seq=16 ttl=59 time=7.48 ms
+64 bytes from 172.65.251.78: icmp_seq=17 ttl=59 time=6.46 ms
+64 bytes from 172.65.251.78: icmp_seq=18 ttl=59 time=5.76 ms
+64 bytes from 172.65.251.78: icmp_seq=19 ttl=59 time=8.99 ms
+64 bytes from 172.65.251.78: icmp_seq=20 ttl=59 time=6.49 ms
+
+--- gitlab.com ping statistics ---
+20 packets transmitted, 20 received, 0% packet loss, time 19136ms
+rtt min/avg/max/mdev = 5.764/7.449/14.629/1.994 ms
