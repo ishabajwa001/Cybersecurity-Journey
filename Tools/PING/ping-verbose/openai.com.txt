@@ -1,0 +1,7 @@
+~$ ping -v -s 1500 -c 10 openai.com
+ping: sock4.fd: 3 (socktype: SOCK_DGRAM), sock6.fd: 4 (socktype: SOCK_DGRAM), hints.ai_family: AF_UNSPEC
+ping: ai->ai_family: AF_INET, ai->ai_canonname: 'openai.com'
+PING openai.com (104.18.33.45) 1500(1528) bytes of data.
+
+--- openai.com ping statistics ---
+10 packets transmitted, 0 received, 100% packet loss, time 9208ms
