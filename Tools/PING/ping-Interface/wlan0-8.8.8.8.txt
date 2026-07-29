@@ -1,0 +1,2 @@
+~$ ping -I wlan0 -c 20 8.8.8.8
+ping: SO_BINDTODEVICE wlan0: No such device
