@@ -1,0 +1,17 @@
+:~$ ping -I enx00155dc9a257 -c 10 8.8.8.8
+ping: Warning: source address might be selected on device other than: enx00155dc9a257
+PING 8.8.8.8 (8.8.8.8) from 172.22.52.152 enx00155dc9a257: 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=118 time=142 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=118 time=26.6 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=118 time=25.3 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=118 time=27.0 ms
+64 bytes from 8.8.8.8: icmp_seq=5 ttl=118 time=30.5 ms
+64 bytes from 8.8.8.8: icmp_seq=6 ttl=118 time=25.7 ms
+64 bytes from 8.8.8.8: icmp_seq=7 ttl=118 time=25.3 ms
+64 bytes from 8.8.8.8: icmp_seq=8 ttl=118 time=25.5 ms
+64 bytes from 8.8.8.8: icmp_seq=9 ttl=118 time=525 ms
+64 bytes from 8.8.8.8: icmp_seq=10 ttl=118 time=952 ms
+
+--- 8.8.8.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9015ms
+rtt min/avg/max/mdev = 25.262/180.412/951.927/296.819 ms
