@@ -1,0 +1,35 @@
+* without numeric flag
+~$ ping -c 10 facebook.com
+PING facebook.com (157.240.227.35) 56(84) bytes of data.
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=1 ttl=56 time=27.5 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=2 ttl=56 time=25.9 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=3 ttl=56 time=33.7 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=4 ttl=56 time=26.3 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=5 ttl=56 time=29.8 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=6 ttl=56 time=26.0 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=7 ttl=56 time=26.9 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=8 ttl=56 time=26.3 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=9 ttl=56 time=26.4 ms
+64 bytes from edge-star-mini-shv-01-mct1.facebook.com (157.240.227.35): icmp_seq=10 ttl=56 time=26.2 ms
+
+--- facebook.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 25.946/27.499/33.680/2.332 ms
+
+* with numeric flag
+$ ping -n -c 10 facebook.com
+PING facebook.com (157.240.227.35) 56(84) bytes of data.
+64 bytes from 157.240.227.35: icmp_seq=1 ttl=56 time=27.0 ms
+64 bytes from 157.240.227.35: icmp_seq=2 ttl=56 time=26.0 ms
+64 bytes from 157.240.227.35: icmp_seq=3 ttl=56 time=26.0 ms
+64 bytes from 157.240.227.35: icmp_seq=4 ttl=56 time=26.3 ms
+64 bytes from 157.240.227.35: icmp_seq=5 ttl=56 time=26.5 ms
+64 bytes from 157.240.227.35: icmp_seq=6 ttl=56 time=27.8 ms
+64 bytes from 157.240.227.35: icmp_seq=7 ttl=56 time=29.7 ms
+64 bytes from 157.240.227.35: icmp_seq=8 ttl=56 time=27.6 ms
+64 bytes from 157.240.227.35: icmp_seq=9 ttl=56 time=29.0 ms
+64 bytes from 157.240.227.35: icmp_seq=10 ttl=56 time=41.1 ms
+
+--- facebook.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 25.984/28.684/41.096/4.302 ms
