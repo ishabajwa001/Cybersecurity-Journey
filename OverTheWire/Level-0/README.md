@@ -119,11 +119,11 @@ The complete terminal session (with the password removed) can be viewed here:
 
 ### SSH Login
 
-![SSH Login](screenshots/01-bandit-login.jpg)
+![SSH Login](Screenshots/01-bandit-login.jpg)
 
 ### Listing Files and Reading the Password
 
-![Listing Files](screenshots/02-ls-cat-readme.jpg)
+![Listing Files](Screenshots/02-ls-cat-readme.jpg)
 
 ---
 
