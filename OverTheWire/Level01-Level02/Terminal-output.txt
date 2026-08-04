@@ -1,0 +1,10 @@
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cd -
+-bash: cd: OLDPWD not set
+bandit1@bandit:~$ file ./-
+./-: ASCII text
+bandit1@bandit:~$ du ./-
+4       ./-
+bandit1@bandit:~$ cat ./-
+***********************
