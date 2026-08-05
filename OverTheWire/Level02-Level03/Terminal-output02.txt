@@ -1,0 +1,6 @@
+bandit2@bandit:~$ file ./--spaces\ in\ this\ filename--
+./--spaces in this filename--: ASCII text
+bandit2@bandit:~$ du ./--spaces\ in\ this\ filename--
+4       ./--spaces in this filename--
+bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename--
+**********************************
