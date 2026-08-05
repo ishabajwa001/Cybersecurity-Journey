@@ -1,0 +1,2 @@
+~$ ping -w 12.5 instagram.com
+ping: invalid argument: '12.5'
