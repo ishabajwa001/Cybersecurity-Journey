@@ -1,0 +1,15 @@
+~$ ping -w 10 gnu.org
+PING gnu.org (209.51.188.116) 56(84) bytes of data.
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=1 ttl=56 time=713 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=2 ttl=56 time=261 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=3 ttl=56 time=304 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=4 ttl=56 time=261 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=5 ttl=56 time=270 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=6 ttl=56 time=449 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=7 ttl=56 time=261 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=8 ttl=56 time=261 ms
+64 bytes from wildebeest1p.gnu.org (209.51.188.116): icmp_seq=9 ttl=56 time=482 ms
+
+--- gnu.org ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 9510ms
+rtt min/avg/max/mdev = 260.691/362.381/713.279/148.336 ms
