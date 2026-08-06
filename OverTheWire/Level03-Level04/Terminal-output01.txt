@@ -1,0 +1,15 @@
+bandit3@bandit:~$ pwd
+/home/bandit3
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere
+bandit3@bandit:~/inhere$ ls
+bandit3@bandit:~/inhere$ ls -all
+total 12
+drwxr-xr-x 2 root    root    4096 Jun 24 14:59 .
+drwxr-xr-x 3 root    root    4096 Jun 24 14:59 ..
+-rw-r----- 1 bandit4 bandit3   33 Jun 24 14:59 ...Hiding-From-You
+bandit3@bandit:~/inhere$ file "./...Hiding-From-You"
+./...Hiding-From-You: MGR bitmap, old format, 1-bit deep, 32-bit aligned
+bandit3@bandit:~/inhere$ cat "./...Hiding-From-You"
+***************************************
