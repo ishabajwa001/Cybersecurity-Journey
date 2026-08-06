@@ -1,0 +1,12 @@
+bandit3@bandit:~$ pwd
+/home/bandit3
+bandit3@bandit:~$ ls
+inhere
+bandit3@bandit:~$ cd inhere
+bandit3@bandit:~/inhere$ ls
+bandit3@bandit:~/inhere$ ls -a
+.  ..  ...Hiding-From-You
+bandit3@bandit:~/inhere$ file ./...Hiding-From-You
+./...Hiding-From-You: MGR bitmap, old format, 1-bit deep, 32-bit aligned
+bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
+******************************************
